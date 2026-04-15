@@ -1,0 +1,129 @@
+{
+  "deney1_spark_vs_pandas": {
+    "pandas_csv_duration_sec": 1.25,
+    "pandas_total_rows": 107727,
+    "pandas_filtered_rows": 21389,
+    "parquet_read_duration_sec": 1.56,
+    "parquet_rows": 2500,
+    "parquet_vs_csv_speedup": 0.8,
+    "spark_pipeline_duration_sec": 20.6,
+    "spark_vs_pandas_speedup": 0.06
+  },
+  "deney2_tutarlilik": {
+    "score_consistency": {
+      "scores": [
+        1,
+        1,
+        1
+      ],
+      "mean": 1,
+      "std_dev": 0.0,
+      "is_consistent": true
+    },
+    "finding_consistency": {
+      "jaccard_mean": null,
+      "is_consistent": false
+    }
+  },
+  "deney3_pipeline_saglamligi": {
+    "total_cases": 67,
+    "a1_error_count": 0,
+    "a1_error_rate_pct": 0.0,
+    "a2_error_count": 0,
+    "a2_error_rate_pct": 0.0,
+    "cascade_rate_pct": 0,
+    "overall_error_rate_pct": 0.0,
+    "note": "Pipeline saglamligi olcusu (JSON/baglanti hatasi) - klinik dogruluk degil"
+  },
+  "deney4_sure": {
+    "mean_sec": 131.2,
+    "min_sec": 34.0,
+    "max_sec": 314.4,
+    "std_dev_sec": 78.0,
+    "cases_per_minute": 0.5,
+    "total_cases": 67
+  },
+  "ground_truth_1_mortalite": {
+    "total_matched": 67,
+    "died_count": 10,
+    "survived_count": 57,
+    "mortality_rate_pct": 14.9,
+    "mean_urgency_died": 4.5,
+    "mean_urgency_survived": 3.96,
+    "mortality_high_urgency_pct": 16.7,
+    "high_urgency_count": 60,
+    "mortality_low_urgency_pct": 0.0,
+    "low_urgency_count": 7,
+    "pearson_correlation": 0.244,
+    "interpretation": "Pozitif korelasyon: yuksek urgency = daha fazla olum (beklenen)"
+  },
+  "ground_truth_2_ref_range": {
+    "ground_truth_method": "MIMIC-IV ref_range_lower/upper (dogrudan olcum)",
+    "evaluated_patients": 67,
+    "true_positives": 207,
+    "false_positives": 0,
+    "false_negatives": 30,
+    "overall_precision": 1.0,
+    "overall_recall": 0.873,
+    "overall_f1": 0.932,
+    "per_test_breakdown": {
+      "Lactate": {
+        "precision": 1.0,
+        "recall": 0.865,
+        "tp": 45,
+        "fp": 0,
+        "fn": 7
+      },
+      "Creatinine": {
+        "precision": 1.0,
+        "recall": 0.963,
+        "tp": 26,
+        "fp": 0,
+        "fn": 1
+      },
+      "Hemoglobin": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "tp": 14,
+        "fp": 0,
+        "fn": 6
+      },
+      "Potassium": {
+        "precision": 1.0,
+        "recall": 0.808,
+        "tp": 21,
+        "fp": 0,
+        "fn": 5
+      },
+      "Sodium": {
+        "precision": 1.0,
+        "recall": 0.952,
+        "tp": 20,
+        "fp": 0,
+        "fn": 1
+      },
+      "Bicarbonate": {
+        "precision": 1.0,
+        "recall": 0.815,
+        "tp": 22,
+        "fp": 0,
+        "fn": 5
+      },
+      "BUN": {
+        "precision": 1.0,
+        "recall": 0.929,
+        "tp": 26,
+        "fp": 0,
+        "fn": 2
+      },
+      "Chloride": {
+        "precision": 1.0,
+        "recall": 0.917,
+        "tp": 33,
+        "fp": 0,
+        "fn": 3
+      }
+    },
+    "methodology_note": "Ground truth: valuenum < ref_range_lower veya > ref_range_upper. Model tahmini: abnormal_findings listesindeki test isimleri. ICD proxy'sine gore cok daha dogrudan bir karsilastirmadir."
+  }
+}

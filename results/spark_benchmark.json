@@ -1,0 +1,9 @@
+{
+  "lab_processing": {
+    "total_rows": 107727,
+    "anomaly_rows": 2500,
+    "reduction_ratio": 97.7,
+    "duration_sec": 20.6
+  },
+  "joined_records": 2124
+}
