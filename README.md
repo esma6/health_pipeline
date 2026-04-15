@@ -8,7 +8,7 @@
 [![MIMIC-IV](https://img.shields.io/badge/Dataset-MIMIC--IV-red)](https://physionet.org/content/mimiciv/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> **Yüksek Lisans Projesi** — Büyük Veri ve Teknolojileri Dersi, 2024–2025
+> **Yüksek Lisans Ders Projesi** — Büyük Veri ve Teknolojileri Dersi, 2025–2026
 
 ---
 
@@ -21,7 +21,7 @@ Bu proje, MIMIC-IV gerçek hastane veritabanındaki milyonlarca lab sonucunu **A
 - 🤖 3 zincirleme LLM ajanı: Analiz → Karar → Raporlama
 - 📊 MIMIC-IV ground truth ile doğrulanmış sonuçlar (F1: **0.932**)
 - 💻 Tamamen yerel çalışır — API ücreti yok, internet bağlantısı gerekmez
-- 🧪 16 GB RAM kısıtı altında çalışacak şekilde optimize edilmiş
+- 🧪 16 GB RAM  altında çalışacak şekilde optimize edilmiş
 
 ---
 
@@ -271,9 +271,8 @@ Pipeline şu 8 kritik lab testini izler:
 ---
 
 ## 👤 Geliştirici
-
-**Esmak** — Yüksek Lisans Öğrencisi, Büyük Veri ve Teknolojileri  
-📧 [GitHub Profilim](https://github.com/KULLANICI_ADIN)
+  
+📧 [GitHub Profilim](https://github.com/esma6)
 
 ---
 
