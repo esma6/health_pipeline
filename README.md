@@ -1,5 +1,5 @@
 # 🏥 Multi-Agent Clinical Decision Support Pipeline
-### *Çok Etmenli Büyük Sağlık Verisi İşleme ve Klinik Karar Destek Boru Hattı*
+### *Çoklu Ajan Büyük Sağlık Verisi İşleme ve Klinik Karar Destek Boru Hattı*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.x-orange?logo=apachespark)](https://spark.apache.org)
